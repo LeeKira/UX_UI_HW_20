@@ -1,0 +1,98 @@
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color:#ededed;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    padding: 0px 5%;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 30px;
+    font-family: Quicksand regular;
+    color:#945a24;
+    font-size: 18px;
+    font-weight: 700;
+}
+.logo{
+    font-family: Quicksand regular;
+    color:#945a24;
+    font-size: 24px;
+}
+.active{
+    font-weight: bold;
+    color: #243b3b;
+}
+
+.about-container{
+    width:80%/;
+    height: 690px;
+    background-color: #DCC6B3;
+    border-radius: 0px;
+    box-shadow: 2px 2px 12px; rgba(0,0,0.2);
+    display: flex;
+    margin:0px auto 20px auto;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about-container img{
+    height:600px;
+}
+.aboutme-text{
+    width:800px;
+}
+.aboutme-text p:nth-child(1){
+    color:#403e3e;
+    font-family: Oswald regular;
+    font-weight: bold;
+    font-size: 53px;
+    line-height: 0px;
+}
+.aboutme-text p:nth-child(2){
+    color:#3e3d3d;
+    font-size:23px;
+    font-family: Oswald regular;
+    font-weight: bold;
+    line-height: 5px;
+    
+}
+.aboutme-text p:nth-child(3),
+.aboutme-text p:nth-child(4){
+    color:#3e3d3d;
+    font-family:Oswald regular;
+    font-size:20px;
+/*fix margin!!!*/    
+}
+
+.aboutme-text button{
+    width:120px;
+    height:40px;
+    color:#ffffff;
+    outline:none;
+    border:none;
+    font-family:Oswald regular;
+    background-color:#262525;
+}
+.hire-btn{
+    border: 2px solid #373636;
+    color:#373636
+}
+.down-rsm{
+    background-color:#0b0b0b;
+    color:#ffff;
+    border: none;
+}
+button:active{
+    transform:scale(1.1);
+}
